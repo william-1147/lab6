@@ -1,0 +1,78 @@
+/*body{
+    background-color: dodgerblue;
+}*/
+h1{
+    position: relative;
+}
+table, th, td {
+    border: 1px solid black;
+ } 
+ input[type=text], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+input[type=date], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.developerss{
+    background-color:turquoise;
+}
+.home{
+    background-image: url("quan.jfif");
+}
+
+.newd{
+    background-color:teal;
+}
+
+.newt{
+    background-color:slategrey;
+}
+
+.upt{
+    background-color:cyan;
+}
+
+.dt{
+    background-color:royalblue;
+}
+
+.lt{
+    background-color:powderblue;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.form{
+    display: inline-block;
+}

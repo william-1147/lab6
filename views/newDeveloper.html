@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="newd">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Developers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <div class="navbar">
+                <a href="/">Home Page</a>
+                <a href="/newDeveloper">New Developer</a>
+                <a href="/getDevelopers">List Developers</a>
+                <a href="/newTask">New Task</a>
+                <a href="/listTask">List Task</a>
+                <a href="/deleteTask">Delete Task</a>
+                <a href="/updateTask">Update Task</a>
+</div>
+    <h3>Insert Developer</h3><br>
+    <form action="/newDeveloper" method="POST">
+        First Name:
+        <input type="text" method="POST" name="fname" /> </br>
+        Last Name:
+        <input type="text" method="POST" name="lname" /> </br>
+        <label for="level">Level:</label>
+        <select name ="level" id="level">
+            <option value="Beginner">Beginner</option>
+            <option value="Expert">Expert</option>
+        </select></br>
+        Address:</br>
+        <label for="state">State</label>
+        <input type="text" method="POST" id="state" name="state"/></br>
+        <label for="suburb">Suburb</label>
+        <input type="text" method="POST" id="suburb" name="suburb"/></br>
+        <label for="street">Street</label>
+        <input type="text" method="POST" id="street" name="street"/></br>
+        <label for="unit">Unit</label>
+        <input type="text" method="POST" id="unit" name="unit"/></br>
+
+        <input type="submit" value="Submit" /> </br>
+    </form>
+</body>
+</html>
